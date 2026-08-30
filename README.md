@@ -2,7 +2,9 @@
 
 > la la la la la lupa lupa zalupa
 
-![Lupa Zalupa preview](assets/lupa-zalupa-preview.png)
+<p align="center">
+  <img src="assets/lupa-zalupa.gif" alt="Lupa Zalupa jumping" width="192" height="208">
+</p>
 
 Lupa Zalupa is a playful, curious, and slightly dramatic animated companion for Codex. She stays quietly by your side while you think, springs into action while Codex works, and reacts as tasks move through their different states.
 
@@ -11,6 +13,7 @@ Lupa Zalupa is a playful, curious, and slightly dramatic animated companion for 
 ```text
 lupa-zalupa/
 ├── assets/
+│   ├── lupa-zalupa.gif
 │   └── lupa-zalupa-preview.png
 ├── pet.json
 └── spritesheet.webp
@@ -18,6 +21,7 @@ lupa-zalupa/
 
 - `pet.json` contains the pet's name, description, sprite version, and spritesheet reference.
 - `spritesheet.webp` is the complete transparent animation atlas.
+- `assets/lupa-zalupa.gif` is the animated preview used at the top of this README.
 - `assets/lupa-zalupa-preview.png` is the preview image used in this README.
 
 ## Requirements
@@ -63,6 +67,8 @@ If she does not appear, confirm that both files are together inside the `lupa-za
 ## Animation states
 
 Codex chooses Lupa Zalupa's animation automatically based on what is happening:
+
+![Lupa Zalupa animation sheet](assets/lupa-zalupa-preview.png)
 
 | State | When it appears |
 | --- | --- |
